@@ -51,7 +51,10 @@ function App() {
       <nav className="container mx-auto px-6 py-6 flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <img
-            src="src\assets\gazon-high-resolution-logo.png"
+            src={
+              process.env.PUBLIC_URL +
+              "src/assets/gazon-high-resolution-logo.png"
+            }
             alt="Shortsai Logo"
             className="w-8 h-8"
           />
@@ -213,7 +216,10 @@ function App() {
           </div>
           <div className="bg-gray-800/50 rounded-2xl overflow-hidden">
             <img
-              src="src\assets\pexels-mart-production-7480559.jpg"
+              src={
+                process.env.PUBLIC_URL +
+                "src/assets/pexels-mart-production-7480559.jpg"
+              }
               alt="Client Testimonial"
               className="w-full h-64 object-cover"
             />
@@ -228,7 +234,10 @@ function App() {
           </div>
           <div className="bg-gray-800/50 rounded-2xl overflow-hidden">
             <img
-              src="src/assets/pexels-cottonbro-6473730.jpg"
+              src={
+                process.env.PUBLIC_URL +
+                "src/assets/pexels-cottonbro-6473730.jpg"
+              }
               alt="Client Testimonial"
               className="w-full h-64 object-cover"
             />
