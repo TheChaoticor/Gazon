@@ -203,7 +203,7 @@ function App() {
               className="w-full h-64 object-cover"
             />
             <div className="p-6">
-              <h3 className="text-xl font-semibold">John Doe</h3>
+              <h3 className="text-xl font-semibold">John Vaneez</h3>
               <p className="text-gray-300">Content Creator</p>
               <p className="mt-4 text-gray-400">
                 "Shortsai has taken my YouTube content to the next level. The
@@ -213,7 +213,7 @@ function App() {
           </div>
           <div className="bg-gray-800/50 rounded-2xl overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1603370120425-2259c3d66315?auto=format&fit=crop&w=800&q=80"
+              src="src\assets\pexels-mart-production-7480559.jpg"
               alt="Client Testimonial"
               className="w-full h-64 object-cover"
             />
@@ -228,15 +228,15 @@ function App() {
           </div>
           <div className="bg-gray-800/50 rounded-2xl overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1556742046-9e88f4ff295e?auto=format&fit=crop&w=800&q=80"
+              src="src/assets/pexels-cottonbro-6473730.jpg"
               alt="Client Testimonial"
               className="w-full h-64 object-cover"
             />
             <div className="p-6">
-              <h3 className="text-xl font-semibold">Mike Johnson</h3>
+              <h3 className="text-xl font-semibold">Mikey Johnson</h3>
               <p className="text-gray-300">Influencer</p>
               <p className="mt-4 text-gray-400">
-                "Shortsai's AI-generated shorts have made my content more
+                "Gazon's AI-generated shorts have made my content more
                 interactive and engaging. Highly recommend!"
               </p>
             </div>
