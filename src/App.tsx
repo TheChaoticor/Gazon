@@ -234,10 +234,7 @@ function App() {
           </div>
           <div className="bg-gray-800/50 rounded-2xl overflow-hidden">
             <img
-              src={
-                process.env.PUBLIC_URL +
-                "src/assets/pexels-cottonbro-6473730.jpg"
-              }
+              src="src/assets/pexels-cottonbro-6473730.jpg"
               alt="Client Testimonial"
               className="w-full h-64 object-cover"
             />
